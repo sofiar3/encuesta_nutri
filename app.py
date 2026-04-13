@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Herramienta Alimentación Saludable", page_icon="🥗")
 
-st.title("Anexo 1. Cuestionario nutricional para cálculo del índice chileno de dieta mediterránea")
+st.title("Cuestionario nutricional para cálculo del índice chileno de dieta mediterránea")
 
 # Estilo para mejorar la visualización de las subpreguntas
 st.markdown("""
