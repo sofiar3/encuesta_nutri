@@ -86,6 +86,7 @@ if p11_1 == "Sí":
     p11_2 = st.radio("11.2. ¿Cuántas cucharaditas (de té) de aceite de oliva consume al día?", ["Ninguna", "1 a 2 cucharaditas", "3 o más cucharaditas"], index=None)
 
 # 12. Canola y Palta
+st.markdown("---")
 p12_1 = st.radio("12.1. ¿Usa regularmente aceite canola puro en su casa?", ["Sí", "No", "Ocasionalmente", "No sabe / no lo conoce"], index=None)
 p12_2 = st.radio("12.2. ¿Cuántas paltas consume a la semana regularmente?", ["ninguna o menos de ½ palta", "½ a 3 paltas", "más de 3 paltas"], index=None)
 
