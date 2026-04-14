@@ -7,9 +7,8 @@ st.info("Responda cada pregunta con cuidado. Las porciones se especifican en cad
 
 with st.form("encuesta"):
     # 1. Verduras
-    st.markdown("#### 1. Consumo de Verduras")
     p1 = st.radio(
-        "¿Cuántas porciones de verduras consume al día?",
+        "1. ¿Cuántas porciones de verduras consume al día?",
         ["Ninguna o menos de 1", "1 a 3 porciones", "3 o más porciones"],
         index=None,
         help="1 porción: 1 taza o 1 plato de entrada. 2 porciones: 2 tazas o 1 plato de fondo lleno."
@@ -32,18 +31,16 @@ with st.form("encuesta"):
     )
 
     # 4. Frutas
-    st.markdown("#### 4. Consumo de Frutas")
     p4 = st.radio(
-        "¿Cuántas porciones de frutas consume al día?",
+        "4. ¿Cuántas porciones de frutas consume al día?",
         ["Ninguna o menos de 1", "1 a 2 porciones", "2 o más porciones"],
         index=None,
         help="1 porción: 1 fruta grande, 2 frutas chicas o 1 taza de fruta picada. Incluye frutas cocidas o deshidratadas."
     )
 
     # 5. Cereales Integrales
-    st.markdown("#### 5. Cereales Integrales")
     p5 = st.radio(
-        "¿Cuántas porciones de cereales integrales consume regularmente cada día?",
+        "5. ¿Cuántas porciones de cereales integrales consume regularmente cada día?",
         ["Ninguna o menos de 1", "1 a 2 porciones", "2 o más porciones"],
         index=None,
         help="1 porción: 1 taza de pasta/arroz integral, 1 taza cereales desayuno integral, 2 rebanadas pan integral."
